@@ -1,0 +1,10 @@
+c:\users\arussu\documents\visual studio 2015\Projects\ConsoleApplicationIO\CoreApplicationIO\bin\Debug\CoreApplicationIO.dll
+c:\users\arussu\documents\visual studio 2015\Projects\ConsoleApplicationIO\CoreApplicationIO\bin\Debug\CoreApplicationIO.pdb
+c:\users\arussu\documents\visual studio 2015\Projects\ConsoleApplicationIO\CoreApplicationIO\obj\Debug\CoreApplicationIO.dll
+c:\users\arussu\documents\visual studio 2015\Projects\ConsoleApplicationIO\CoreApplicationIO\obj\Debug\CoreApplicationIO.pdb
+c:\users\arussu\documents\visual studio 2015\Projects\ConsoleApplicationIO\CoreApplicationIO\obj\Debug\CoreApplicationIO.csprojResolveAssemblyReference.cache
+D:\Anton\CSharp\ConsoleApplicationIO\ConsoleApplicationIO\CoreApplicationIO\bin\Debug\CoreApplicationIO.dll
+D:\Anton\CSharp\ConsoleApplicationIO\ConsoleApplicationIO\CoreApplicationIO\bin\Debug\CoreApplicationIO.pdb
+D:\Anton\CSharp\ConsoleApplicationIO\ConsoleApplicationIO\CoreApplicationIO\obj\Debug\CoreApplicationIO.csproj.CoreCompileInputs.cache
+D:\Anton\CSharp\ConsoleApplicationIO\ConsoleApplicationIO\CoreApplicationIO\obj\Debug\CoreApplicationIO.dll
+D:\Anton\CSharp\ConsoleApplicationIO\ConsoleApplicationIO\CoreApplicationIO\obj\Debug\CoreApplicationIO.pdb
