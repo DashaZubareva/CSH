@@ -1,4 +1,5 @@
 ﻿using CoreApplicationIO.Common;
+using CoreApplicationIO.DATA;
 using CoreApplicationIO.Interfaces;
 using CoreApplicationIO.Models;
 using System;
@@ -9,16 +10,18 @@ using System.Text.RegularExpressions;
 
 namespace CoreApplicationIO.Managers
 {
-    public class CarManager //: ICarManager
+    public class CarXmlManager //: ICarManager
     {
         string filePath { get; set; }
         StreamReader streamReader { get; set; }
         StreamWriter streamWriter { get; set; }
         public List<Car> Cars { get; private set; }
 
+        private XmlStreamReader xmlStreamReader { get; set; }
+
         List<string> SearchFilter { get; set; }
 
-        public CarManager(string filePath)
+        public CarXmlManager(string filePath)
         {
             this.filePath = filePath;
             Cars = new List<Car>();
@@ -26,47 +29,26 @@ namespace CoreApplicationIO.Managers
         }
         public List<Car> GetCars()
         {
-            string line = string.Empty;
             Car car = null;
 
             Cars.Clear();
-            using (streamReader = new System.IO.StreamReader(filePath))
-                while ((line = streamReader.ReadLine()) != null)
+            using (Stream stream = new System.IO.FileStream(filePath, FileMode.Open))
+            {
+                using (xmlStreamReader = new XmlStreamReader(stream))
                 {
-                    car = ReadFromRow(line);
-                    if (car != null)
+                    while (xmlStreamReader.Read())
                     {
-                        Cars.Add(car);
-                    }
-                }
-            return Cars;
-        }
-
-        public List<Car> GetCars(string model, string year, string engine)
-        {
-            string line = string.Empty;
-            Car car = null;
-
-            Cars.Clear();
-            using (streamReader = new System.IO.StreamReader(filePath))
-                while ((line = streamReader.ReadLine()) != null)
-                {
-                    if ( line.Contains(model) && line.Contains(year) && line.Contains(engine))
-                    {
-                        car = ReadFromRow(line);
+                        car = xmlStreamReader.Deserialize();
                         if (car != null)
                         {
                             Cars.Add(car);
                         }
                     }
                 }
+            }
             return Cars;
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="filter"></param>
-        /// <returns></returns>
+
         public List<Car> GetCars(SearchFilter filter)
         {
             string line = string.Empty;

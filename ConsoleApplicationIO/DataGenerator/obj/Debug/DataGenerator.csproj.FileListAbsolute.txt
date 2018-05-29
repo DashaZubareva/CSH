@@ -7,12 +7,3 @@ D:\Anton\CSharp\ConsoleApplicationIO\ConsoleApplicationIO\DataGenerator\obj\Debu
 D:\Anton\CSharp\ConsoleApplicationIO\ConsoleApplicationIO\DataGenerator\obj\Debug\DataGenerator.csproj.CoreCompileInputs.cache
 D:\Anton\CSharp\ConsoleApplicationIO\ConsoleApplicationIO\DataGenerator\obj\Debug\DataGenerator.exe
 D:\Anton\CSharp\ConsoleApplicationIO\ConsoleApplicationIO\DataGenerator\obj\Debug\DataGenerator.pdb
-D:\c#Daria\ConsoleApplicationIO\DataGenerator\bin\Debug\DataGenerator.exe.config
-D:\c#Daria\ConsoleApplicationIO\DataGenerator\bin\Debug\DataGenerator.exe
-D:\c#Daria\ConsoleApplicationIO\DataGenerator\bin\Debug\DataGenerator.pdb
-D:\c#Daria\ConsoleApplicationIO\DataGenerator\bin\Debug\CoreApplicationIO.dll
-D:\c#Daria\ConsoleApplicationIO\DataGenerator\bin\Debug\CoreApplicationIO.pdb
-D:\c#Daria\ConsoleApplicationIO\DataGenerator\obj\Debug\DataGenerator.csprojResolveAssemblyReference.cache
-D:\c#Daria\ConsoleApplicationIO\DataGenerator\obj\Debug\DataGenerator.csproj.CoreCompileInputs.cache
-D:\c#Daria\ConsoleApplicationIO\DataGenerator\obj\Debug\DataGenerator.exe
-D:\c#Daria\ConsoleApplicationIO\DataGenerator\obj\Debug\DataGenerator.pdb
