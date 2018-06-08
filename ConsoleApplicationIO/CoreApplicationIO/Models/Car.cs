@@ -10,6 +10,8 @@ namespace CoreApplicationIO
     [Serializable]
 	public class Car
 	{
+        public const string XmlElementName = "Car";
+
         [XmlAttribute]
         public Guid CarId { get; set; }
 
@@ -32,6 +34,16 @@ namespace CoreApplicationIO
         [XmlAttribute]
         public DateTime Date { get; set; }
 
+        [XmlNamespaceDeclarationsAttribute]
+        public XmlSerializerNamespaces xmlns { get; set; }
+
+        public Car()
+        {
+            var xmlSerializerNamespaces = new XmlSerializerNamespaces();
+            xmlSerializerNamespaces.Add(string.Empty, string.Empty);
+            this.xmlns = xmlSerializerNamespaces;
+        }
+
         public string DisplayString()
 		{
 			return string.Format("{1}{0}{2}{0}{3}{0}{4}{0}{5}(cm.cube){0}{6}(km/h){0}{7}{0}", " "
@@ -41,7 +53,7 @@ namespace CoreApplicationIO
 		public string StoreFormat()
 		{
 			return string.Format("{1}{0}{2}{0}{3}{0}{4}{0}{5}{0}{6}{0}{7}", ";"
-				,CarId, Model.ToString(), ModelVersion, Engine, Displacement, Speed, Date.ToString("dd.MM.yyyy"));
+				,CarId, Model.ToString(), ModelVersion, Engine, Displacement, Speed, Date.ToString("yyyy-MM-ddTHH:mm:ss"));
 		}
 	}
 }

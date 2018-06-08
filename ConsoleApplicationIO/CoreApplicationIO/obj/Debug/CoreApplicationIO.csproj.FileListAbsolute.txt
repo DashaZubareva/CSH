@@ -8,3 +8,10 @@ D:\Anton\CSharp\ConsoleApplicationIO\ConsoleApplicationIO\CoreApplicationIO\bin\
 D:\Anton\CSharp\ConsoleApplicationIO\ConsoleApplicationIO\CoreApplicationIO\obj\Debug\CoreApplicationIO.csproj.CoreCompileInputs.cache
 D:\Anton\CSharp\ConsoleApplicationIO\ConsoleApplicationIO\CoreApplicationIO\obj\Debug\CoreApplicationIO.dll
 D:\Anton\CSharp\ConsoleApplicationIO\ConsoleApplicationIO\CoreApplicationIO\obj\Debug\CoreApplicationIO.pdb
+D:\Anton\CSharp\ConsoleApplicationIO\ConsoleApplicationIO\CoreApplicationIO\obj\Debug\CoreApplicationIO.csprojResolveAssemblyReference.cache
+D:\cSharp\ConsoleApplicationIO\CoreApplicationIO\bin\Debug\CoreApplicationIO.dll
+D:\cSharp\ConsoleApplicationIO\CoreApplicationIO\bin\Debug\CoreApplicationIO.pdb
+D:\cSharp\ConsoleApplicationIO\CoreApplicationIO\obj\Debug\CoreApplicationIO.csprojResolveAssemblyReference.cache
+D:\cSharp\ConsoleApplicationIO\CoreApplicationIO\obj\Debug\CoreApplicationIO.csproj.CoreCompileInputs.cache
+D:\cSharp\ConsoleApplicationIO\CoreApplicationIO\obj\Debug\CoreApplicationIO.dll
+D:\cSharp\ConsoleApplicationIO\CoreApplicationIO\obj\Debug\CoreApplicationIO.pdb

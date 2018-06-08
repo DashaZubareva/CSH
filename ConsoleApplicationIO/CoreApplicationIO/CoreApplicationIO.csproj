@@ -41,12 +41,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\Constants.cs" />
+    <Compile Include="DATA\XmlStreamReader.cs" />
+    <Compile Include="DATA\XmlStreamWriter.cs" />
+    <Compile Include="Managers\CarXmlManager.cs" />
+    <Compile Include="Managers\ReadManager.cs" />
     <Compile Include="Models\Car.cs" />
     <Compile Include="Enums\CarModel.cs" />
     <Compile Include="Interfaces\ICarManager.cs" />
     <Compile Include="Managers\CarManager.cs" />
     <Compile Include="Models\SearchFilter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DATA\Data.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

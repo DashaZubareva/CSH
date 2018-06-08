@@ -9,6 +9,6 @@ namespace CoreApplicationIO.Common
 	public static class Constants
 	{
 		public const int CarPropertiesCount = 7;
-        public const string RegExDatePattern = "[0-9]{1,2}\\.[0-9]{1,2}\\.[0-9]{4}";
+        public const string RegExDatePattern = "[0-9]{4}-[0-9]{1,2}-[0-9]{2}";
     }
 }

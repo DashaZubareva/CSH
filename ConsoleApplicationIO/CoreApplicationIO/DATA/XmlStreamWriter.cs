@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace DataGenerator
+namespace CoreApplicationIO.DATA
 {
     /// <summary>
 	/// Base class for XML writers.

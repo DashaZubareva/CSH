@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CoreApplicationIO.DATA;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -22,7 +23,7 @@ namespace DataGenerator
         static void Main(string[] args)
         {
             var dataGenerator = new DataGenerator();
-            using (Stream fileStream = new System.IO.FileStream("c:\\DATA\\XXX.csv", FileMode.Create))
+            using (Stream fileStream = new System.IO.FileStream("D:\\Anton\\DATA\\XXX.csv", FileMode.Create))
             {
                 using (var csvStreamWriter = new CsvStreamWriter(fileStream, true))
                 {
