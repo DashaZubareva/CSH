@@ -9,32 +9,50 @@ namespace CoreApplicationIO.Managers
 {
     public class ReadManager
     {
-        string filePath { get; set; }
+        string fileSoursePath { get; set; }
+        string fileDestinationPath { get; set; }
         StreamReader streamReader { get; set; }
         StreamWriter streamWriter { get; set; }
         public List<Car> Cars { get; private set; }
 
         byte[] range;
 
-        public ReadManager(string filePath)
+        public ReadManager(string fileSoursePath, string fileDestinationPath)
         {
-            this.filePath = filePath;            
+            this.fileSoursePath = fileSoursePath;
+            this.fileDestinationPath = fileDestinationPath;
         }
         
 
-        public void readRange()
+        public void ReadRange()
         {
-            byte[] part =new byte[100000];
-
-            using (FileStream fs = File.OpenRead(filePath))
+            using (FileStream fs = File.OpenRead(fileSoursePath))
             {
-                byte[] b = new byte[500];
+                byte[] part = new byte[500];
                 UTF8Encoding temp = new UTF8Encoding(true);
-                while (fs.Read(b, 0, b.Length) > 0)
+                while (fs.Read(part, 0, part.Length) > 0)
                 {
-                    Console.WriteLine(temp.GetString(b));
+                   //if (part.Length < 500)
+                  //  {
+                        Console.WriteLine(part.Length);
+                  //  }
+                    WriteRange(part);
+
+                    Console.WriteLine(temp.GetString(part));
                     Console.WriteLine("-------------------------------------------------------------------------------------");
                 }
+            }
+        }
+         public void WriteRange(byte[] part)
+        {
+            using (FileStream fs = new FileStream(fileDestinationPath, FileMode.Append))
+            {
+                UTF8Encoding temp = new UTF8Encoding(true);
+
+                fs.Write(part, 0, part.Length);
+                Console.WriteLine(part.Length);
+                Console.WriteLine(temp.GetString(part));
+                Console.WriteLine("-------------------------------------------------------------------------------------");
             }
         }
         

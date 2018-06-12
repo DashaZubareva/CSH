@@ -48,8 +48,8 @@ namespace ConsoleApplicationIO
             };
 
             */
-            ReadManager readManager = new ReadManager(@"D:\Anton\DATA\XXX.xml");
-            readManager.readRange();
+            ReadManager readManagers = new ReadManager(@"D:\Anton\DATA\XXX.xml", @"D:\Anton\DATA\XXXX.xml");
+            readManagers.ReadRange();
             Console.ReadKey();
 
          /*   carManager.AddCar(car);
