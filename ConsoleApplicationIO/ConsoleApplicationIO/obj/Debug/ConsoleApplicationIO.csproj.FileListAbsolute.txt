@@ -15,6 +15,23 @@ D:\Anton\CSharp\ConsoleApplicationIO\ConsoleApplicationIO\ConsoleApplicationIO\o
 D:\Anton\CSharp\ConsoleApplicationIO\ConsoleApplicationIO\ConsoleApplicationIO\obj\Debug\ConsoleApplicationIO.csproj.CoreCompileInputs.cache
 D:\Anton\CSharp\ConsoleApplicationIO\ConsoleApplicationIO\ConsoleApplicationIO\obj\Debug\ConsoleApplicationIO.exe
 D:\Anton\CSharp\ConsoleApplicationIO\ConsoleApplicationIO\ConsoleApplicationIO\obj\Debug\ConsoleApplicationIO.pdb
+c:\users\arussu\documents\visual studio 2015\Projects\ConsoleApplicationIO\ConsoleApplicationIO\bin\Debug\ConsoleApplicationIO.exe.config
+c:\users\arussu\documents\visual studio 2015\Projects\ConsoleApplicationIO\ConsoleApplicationIO\bin\Debug\ConsoleApplicationIO.exe
+c:\users\arussu\documents\visual studio 2015\Projects\ConsoleApplicationIO\ConsoleApplicationIO\bin\Debug\ConsoleApplicationIO.pdb
+c:\users\arussu\documents\visual studio 2015\Projects\ConsoleApplicationIO\ConsoleApplicationIO\bin\Debug\CoreApplicationIO.dll
+c:\users\arussu\documents\visual studio 2015\Projects\ConsoleApplicationIO\ConsoleApplicationIO\bin\Debug\CoreApplicationIO.pdb
+c:\users\arussu\documents\visual studio 2015\Projects\ConsoleApplicationIO\ConsoleApplicationIO\obj\Debug\ConsoleApplicationIO.csprojResolveAssemblyReference.cache
+c:\users\arussu\documents\visual studio 2015\Projects\ConsoleApplicationIO\ConsoleApplicationIO\obj\Debug\ConsoleApplicationIO.exe
+c:\users\arussu\documents\visual studio 2015\Projects\ConsoleApplicationIO\ConsoleApplicationIO\obj\Debug\ConsoleApplicationIO.pdb
+D:\Anton\CSharp\ConsoleApplicationIO\ConsoleApplicationIO\ConsoleApplicationIO\bin\Debug\ConsoleApplicationIO.exe.config
+D:\Anton\CSharp\ConsoleApplicationIO\ConsoleApplicationIO\ConsoleApplicationIO\bin\Debug\ConsoleApplicationIO.exe
+D:\Anton\CSharp\ConsoleApplicationIO\ConsoleApplicationIO\ConsoleApplicationIO\bin\Debug\ConsoleApplicationIO.pdb
+D:\Anton\CSharp\ConsoleApplicationIO\ConsoleApplicationIO\ConsoleApplicationIO\bin\Debug\CoreApplicationIO.dll
+D:\Anton\CSharp\ConsoleApplicationIO\ConsoleApplicationIO\ConsoleApplicationIO\bin\Debug\CoreApplicationIO.pdb
+D:\Anton\CSharp\ConsoleApplicationIO\ConsoleApplicationIO\ConsoleApplicationIO\obj\Debug\ConsoleApplicationIO.csprojResolveAssemblyReference.cache
+D:\Anton\CSharp\ConsoleApplicationIO\ConsoleApplicationIO\ConsoleApplicationIO\obj\Debug\ConsoleApplicationIO.csproj.CoreCompileInputs.cache
+D:\Anton\CSharp\ConsoleApplicationIO\ConsoleApplicationIO\ConsoleApplicationIO\obj\Debug\ConsoleApplicationIO.exe
+D:\Anton\CSharp\ConsoleApplicationIO\ConsoleApplicationIO\ConsoleApplicationIO\obj\Debug\ConsoleApplicationIO.pdb
 D:\cSharp\ConsoleApplicationIO\ConsoleApplicationIO\bin\Debug\ConsoleApplicationIO.exe.config
 D:\cSharp\ConsoleApplicationIO\ConsoleApplicationIO\bin\Debug\ConsoleApplicationIO.exe
 D:\cSharp\ConsoleApplicationIO\ConsoleApplicationIO\bin\Debug\ConsoleApplicationIO.pdb
